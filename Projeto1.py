@@ -84,8 +84,6 @@ def merge(instancia):
     frase = ''
 
     for elemento in instancia:
-        num = 0
-        
         if elemento[-1] == ',':
             lista_hold.append(int(elemento[1:len(elemento) - 1]))
         else:
