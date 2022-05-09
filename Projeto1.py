@@ -67,8 +67,7 @@ def crypto(instancia):
 def deYodafy(instancia):
     p_deY = Pilha()
     frase = ''
-    instancia[-1], ponto = instancia[-1][0:len(
-        instancia[-1]) - 1], instancia[-1][len(instancia[-1]) - 1:]
+    instancia[-1], ponto = instancia[-1][0:len(instancia[-1]) - 1], instancia[-1][len(instancia[-1]) - 1:]
 
     for i in range(len(instancia)):
         p_deY.colocar(instancia[i])
